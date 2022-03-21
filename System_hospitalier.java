@@ -8,6 +8,7 @@ public class System_hospitalier {
 	private List<Requête> listRequetes;
 
 	public System_hospitalier(List<Requête> listRequetes) {
+
 		super();
 		this.listRequetes = listRequetes;
 	}
@@ -34,12 +35,12 @@ public class System_hospitalier {
 	}
 	
 	private String analyserRequete(Requête requête) {
-		// Analyser la requête
+		// Analyser la requête envoyée par l'utilisateur
 		return "requête analysée";
 	}
 	
 	private String comparerDonnes() {
-		// Comparaison des données
+		// Comparaison des données avec la base de données
 		return "Cluster trouvé";
 	}
 
